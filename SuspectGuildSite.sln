@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuspectWebApp.Client", "Cli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuspectWebApp.Shared", "SuspectWebApp.Shared\SuspectWebApp.Shared.csproj", "{9EBD26CF-8A2C-47D7-A3B8-A721AE3100BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuspectWebApp.Api", "SuspectWebApp.Api\SuspectWebApp.Api.csproj", "{97F3063B-7A8F-4D66-ABDC-5C7069330E70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuspectWebApp.Api", "SuspectWebApp.Api\SuspectWebApp.Api.csproj", "{97F3063B-7A8F-4D66-ABDC-5C7069330E70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
