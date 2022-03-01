@@ -15,6 +15,10 @@
 		<ProjectReference Include="..\SuspectWebApp.Shared\SuspectWebApp.Shared.csproj" />
 	</ItemGroup>
 
+	<Target Name="ToolRestore" BeforeTargets="PreBuildEvent">
+		<Exec Command="dotnet tool restore" StandardOutputImportance="high" />
+	</Target>
+	
 	<Target Name="CompileStaticAssets" AfterTargets="AfterBuild">
 		<Exec Command="webcompiler -r wwwroot" StandardOutputImportance="high" />
 	</Target>
